@@ -9,22 +9,22 @@ To configure the project on a Linux system, follow these steps:
 1. Create a Python virtual environment:
 	```bash
 	$ python3 -m venv ./dev
-	```
+ 	```
 2. Activate the virtual environment:
+        ```bash 
+   	```
+   	$ source ./dev/bin/activate
+4. Install the required dependencies:
         ```bash
-        $ source ./dev/bin/activate
-        ```
-3. Install the required dependencies:
-        ```bash
-        $ pip install -r requirements.txt
-        ```
+   ```
+   $ pip install -r requirements.txt
+   ```
 ## Usage
 
 Before running the code, make sure to update the database credentials in the Mimesis code to match your PostgreSQL database.
 
 4. Run the script to generate fake data:
         ```bash
-        $ python3 mimesis.py
-        ```
-
+   ```
+   $ python3 mimesis.py
 Now, you can use this fake data for testing your services.
