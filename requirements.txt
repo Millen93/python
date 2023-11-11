@@ -1,2 +1,0 @@
-mimesis
-psycopg2
